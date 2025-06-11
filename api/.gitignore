@@ -1,0 +1,21 @@
+# Build output
+bin/
+obj/
+
+# App secrets
+appsettings.Development.json
+secrets.json
+
+# Entity Framework
+Migrations/*Snapshot.cs
+
+# VS and dotnet tooling
+*.user
+*.suo
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Publish output
+wwwroot/

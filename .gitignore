@@ -1,0 +1,18 @@
+# Global ignores
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# VS Code
+.vscode/
+
+# Solution-level output
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Node packages (in case someone mistakenly puts them at root)
+node_modules/
