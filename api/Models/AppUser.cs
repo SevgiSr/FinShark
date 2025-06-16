@@ -9,6 +9,7 @@ namespace api.Models
     /* IdentityUser has password and stuff already behind the scene */
     public class AppUser : IdentityUser
     {
+        public List<Portfolio> Portfolios { get; set; } = new List<Portfolio>();
 
     }
 }
